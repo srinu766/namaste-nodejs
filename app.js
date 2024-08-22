@@ -1,13 +1,15 @@
 require('./xyz')
-// const {x, calculate} = require('./calculate/sum')
-// const {calculateMultiply} = require('./calculate/multliply')
 const {calculate, calculateMultiply} = require('./calculate')
+const data =  require('./data.json')
 
-z = 10
-var name ="Namaste Srinu Learning NodeJS";
+const utils = require('util')
+
+console.log(utils)
+
+console.log(data)
+console.log(JSON.stringify(data))
+
 var a =10
 var b=20
 calculateMultiply(a,b)
 calculate(a,b)
-
-// console.log(x) 
